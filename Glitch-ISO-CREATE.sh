@@ -1,7 +1,8 @@
 #!/bin/bash
 
-# Nano ISO Creator - Minimal Live System ISO Builder
-# Auto-chainloads from ISOLINUX to GRUB2 instantly
+# HYBRID grub2 ISO Creator - UEFI & BIOS Compatible. 
+# Auto-chainloads from ISOLINUX to GRUB2 in bios mode.
+# https://github.com/GlitchLinux/LIVE-ISO-UTILITY.git
 
 # Color codes
 RED='\033[0;31m'
