@@ -1,8 +1,9 @@
 #!/bin/bash
 
 # Linux live Remaster-System-Utility to compress your Debian/Ubuntu installation to a .squashfs and and create bootable ISO
-# Squash part of script is partially built on "DebianDog 2016" utility, by Fred (fredx181) 
-# Everything else is inspired from: Systemback , Remastersys, Penguins Eggs, Refractatools..  
+# Squash part script is partially built on "DebianDog 2016" 'RemasterDog utility' by Fred (fredx181) 
+# Everything else is inspired from: Systemback , Remastersys, Penguins Eggs, Refractatools.
+# https://github.com/GlitchLinux/LIVE-ISO-UTILITY.git
  
 [ "`whoami`" != "root" ] && exec gsu ${0}
 
